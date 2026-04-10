@@ -56,6 +56,7 @@ wdata.groupby('Weather Condition').min(numeric_only=True)
 wdata.groupby('Weather Condition').max(numeric_only=True)
 
 wdata.groupby('Weather Condition').max(numeric_only=True)
+st.wdata
 
 wdata[wdata['Weather Condition']=='Fog']
 
