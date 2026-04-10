@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/github/BeginnerCoder114/Weather_Data_Analysis/blob/main/Weather_data_analysis.ipynb
 """
 
-!pip freeze > requirements.txt
-!pip install streamlit
+pip freeze > requirements.txt
+pip install streamlit
 
 #importing the necessary libraries
 import pandas as pd #data import and manipulation
