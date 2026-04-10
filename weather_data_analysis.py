@@ -12,9 +12,6 @@ Original file is located at
 #importing the necessary libraries
 import pandas as pd #data import and manipulation
 import numpy as np #Cleaner arrays
-from sklearn.cluster import KMeans #Machine learning algorithm
-import warnings #Allows to bypass warnings regarding depreciated functions
-warnings.filterwarnings('ignore')
 import streamlit as st
 
 wdata=pd.read_csv(r"C:\Users\asuso\OneDrive\Desktop\Weather_data_analysis\1. Weather Data.csv")
