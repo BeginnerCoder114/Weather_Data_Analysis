@@ -12,8 +12,6 @@ Original file is located at
 #importing the necessary libraries
 import pandas as pd #data import and manipulation
 import numpy as np #Cleaner arrays
-import seaborn as sns #Statistical visualisations
-import matplotlib.pyplot as plt #visualisations
 from sklearn.cluster import KMeans #Machine learning algorithm
 import warnings #Allows to bypass warnings regarding depreciated functions
 warnings.filterwarnings('ignore')
