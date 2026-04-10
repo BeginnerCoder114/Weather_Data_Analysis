@@ -14,7 +14,7 @@ import pandas as pd #data import and manipulation
 import numpy as np #Cleaner arrays
 import streamlit as st
 
-wdata=pd.read_csv(r"C:\Users\asuso\OneDrive\Desktop\Weather_data_analysis\1. Weather Data.csv")
+wdata=pd.read_csv('1. Weather Data.csv')
 
 wdata['Weather'].unique() #Reviewing all the unique events within the weather column
 
